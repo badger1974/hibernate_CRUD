@@ -13,7 +13,7 @@ import java.util.List;
 @Entity
 @Table(name = "customer")
 public class CustomerEntity {
-int c = 30;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
